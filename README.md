@@ -5,26 +5,27 @@ Analyse des Consommations Énergétiques et du DPE à Abbeville
 Projet d'analyse des performances énergétiques des logements à Abbeville
 
 Données : Open Data Enedis & Ademe
+
 Technologies utilisées : Python, Pandas, Matplotlib, Seaborn, Scikit-learn
 
-Objectif du Projet
+    Objectif du Projet
 L’objectif de ce projet est d’évaluer l’impact de la classe de Diagnostic de Performance Énergétique (DPE) sur la consommation réelle d’électricité des logements à Abbeville.
 
 Il s’agit de :
-✔ Comparer les estimations du DPE avec les consommations réelles issues des données Enedis.
-✔ Identifier les facteurs influençant la consommation énergétique : isolation, surface, type de chauffage, etc.
-✔ Visualiser les tendances et interpréter les écarts entre théorie et réalité.
+Comparer les estimations du DPE avec les consommations réelles issues des données Enedis.
+Identifier les facteurs influençant la consommation énergétique : isolation, surface, type de chauffage, etc.
+Visualiser les tendances et interpréter les écarts entre théorie et réalité.
 
-Structure du Projet
+        Structure du Projet
 
-Données sources :
+    Données sources :
 
 dpe-v2-logements-existants.csv → Données des DPE des logements existants (source Ademe).
 consommation-annuelle-residentielle-par-adresse.csv → Données de consommation énergétique par adresse (source Enedis).
 donnees_abbeville.csv → Données filtrées pour Abbeville.
 donnees_2023.csv → Données spécifiques pour Abbeville en 2023.
 
-Notebooks d’analyse :
+    Notebooks d’analyse :
     
   Préparation des données (préparation-données-dpe-abbeville.ipynb)
 
@@ -42,9 +43,9 @@ Premières prédictions et étude de la pertinence des variables.
 
     Résumé des Résultats
 
-✔ Le type d’énergie principale de chauffage est le facteur le plus influent sur la consommation d’énergie.
-✔ Les déperditions thermiques et la qualité de l’isolation jouent un rôle clé.
-✔ La surface habitable a un fort impact sur la consommation;
+ Le type d’énergie principale de chauffage est le facteur le plus influent sur la consommation d’énergie.
+ Les déperditions thermiques et la qualité de l’isolation jouent un rôle clé.
+ La surface habitable a un fort impact sur la consommation;
 
 Les analyses détaillées et interprétations sont disponibles dans les notebooks.
 Ceci est un projet de niveau confirmé, bien que je sois encore débutante, il permet de pratique les différentes étapes d'un projet d'analyse de données: préparation de données, analyse exploratoire, prédictions.
@@ -70,7 +71,7 @@ Copier
 Modifier
 jupyter notebook
 
-   Améliorations Possibles
+        Améliorations Possibles
 
 Ce projet peut être amélioré en :
 Ajoutant d’autres modèles de prédiction pour mieux expliquer les écarts DPE/consommation.
