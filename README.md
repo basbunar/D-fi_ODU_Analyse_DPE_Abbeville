@@ -26,13 +26,13 @@ Visualiser les tendances et interpréter les écarts entre théorie et réalité
 Données sources :
 
     dpe-v2-logements-existants.csv 
-    
-    [https://defis.data.gouv.fr/datasets/6347fc2859c3545c0c28005d](https://data.ademe.fr/datasets/dpe-v2-logements-existants)
+
+      [https://defis.data.gouv.fr/datasets/6347fc2859c3545c0c28005d](https://data.ademe.fr/datasets/dpe-v2-logements-existants)
     
 → Données des DPE des logements existants (source Ademe).
   
     consommation-annuelle-residentielle-par-adresse.csv 
-    https://data.enedis.fr/explore/dataset/consommation-annuelle-residentielle-par-adresse/information/
+          https://data.enedis.fr/explore/dataset/consommation-annuelle-residentielle-par-adresse/information/
     
 → Données de consommation énergétique par adresse (source Enedis).
 
@@ -51,7 +51,7 @@ Filtrage des données DPE et Enedis pour Abbeville.
 Normalisation et fusion des adresses en utilisant l'API de la Base Adresse Nationale
 
     url = "https://api-adresse.data.gouv.fr/search/"
-    https://defis.data.gouv.fr/datasets/5530fbacc751df5ff937dddb
+          https://defis.data.gouv.fr/datasets/5530fbacc751df5ff937dddb
     
 Filtrage sur Abbeville, puis sur l’année 2023.
 
@@ -76,7 +76,7 @@ Résumé des Résultats
 Les analyses détaillées et interprétations sont disponibles dans les notebooks.
 Ceci est un projet de niveau confirmé, bien que je sois encore débutante, il permet la pratique des différentes étapes d'un projet d'analyse de données: préparation de données, analyse exploratoire, prédictions.
 
-      Améliorations Possibles
+Améliorations Possibles
 
 Ce projet peut être amélioré en :
 
