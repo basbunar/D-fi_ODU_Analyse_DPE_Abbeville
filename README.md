@@ -1,14 +1,17 @@
-                            Défi Open Data University - Diagnostics des Performances Energétiques - Niveau Confirmé
+Défi Open Data University - Diagnostics des Performances Energétiques - Niveau Confirmé
 
-    Analyse des Consommations Énergétiques et du DPE à Abbeville
+  Analyse des Consommations Énergétiques et du DPE à Abbeville
 
-    Projet d'analyse des performances énergétiques des logements à Abbeville
+  Projet d'analyse des performances énergétiques des logements à Abbeville
 
 Données : Open Data Enedis & Ademe
 
-Technologies utilisées : Python, Pandas, Matplotlib, Seaborn, Scikit-learn
+Technologies utilisées :                     
 
-    Objectif du Projet
+    Python, Pandas, Matplotlib, Seaborn, Scikit-learn
+
+
+Objectif du Projet
 L’objectif de ce projet est d’évaluer l’impact de la classe de Diagnostic de Performance Énergétique (DPE) sur la consommation réelle d’électricité des logements à Abbeville.
 
 Il s’agit de :
@@ -16,32 +19,44 @@ Comparer les estimations du DPE avec les consommations réelles issues des donn�
 Identifier les facteurs influençant la consommation énergétique : isolation, surface, type de chauffage, etc.
 Visualiser les tendances et interpréter les écarts entre théorie et réalité.
 
-        Structure du Projet
+  Structure du Projet
 
-    Données sources :
+Données sources :
 
-dpe-v2-logements-existants.csv → Données des DPE des logements existants (source Ademe).
-consommation-annuelle-residentielle-par-adresse.csv → Données de consommation énergétique par adresse (source Enedis).
-donnees_abbeville.csv → Données filtrées pour Abbeville.
-donnees_2023.csv → Données spécifiques pour Abbeville en 2023.
+    dpe-v2-logements-existants.csv 
+→ Données des DPE des logements existants (source Ademe).
+  
+    consommation-annuelle-residentielle-par-adresse.csv 
+→ Données de consommation énergétique par adresse (source Enedis).
 
-    Notebooks d’analyse :
-    
-  Préparation des données (préparation-données-dpe-abbeville.ipynb)
+    donnees_abbeville.csv 
+→ Données filtrées pour Abbeville.
+
+    donnees_2023.csv → Données spécifiques pour Abbeville en 2023.
+
+ Notebooks d’analyse :
+
+Préparation des données 
+
+     préparation-données-dpe-abbeville.ipynb  
 
 Filtrage des données DPE et Enedis pour Abbeville.
 Normalisation et fusion des adresses.
 Filtrage sur Abbeville, puis sur l’année 2023.
 
-  Analyse des consommations pour 2023 (prédictions-dpe-abbeville-2023.ipynb)
+  Analyse des consommations pour 2023 
+  
+    prédictions-dpe-abbeville-2023.ipynb
 
 Étude des consommations réelles des logements pour 2023.
 Visualisation des tendances par classe DPE.
 Premières prédictions et étude de la pertinence des variables.
 
-  Analyse globale sans filtre temporel (prédictions-dpe-abbeville.ipynb)
+  Analyse globale sans filtre temporel 
 
-    Résumé des Résultats
+    prédictions-dpe-abbeville.ipynb
+
+Résumé des Résultats
 
  Le type d’énergie principale de chauffage est le facteur le plus influent sur la consommation d’énergie.
  Les déperditions thermiques et la qualité de l’isolation jouent un rôle clé.
@@ -53,23 +68,26 @@ Ceci est un projet de niveau confirmé, bien que je sois encore débutante, il p
     Comment Utiliser ce Projet:
 
 1) Cloner le projet sur ton ordinateur
-bash
-Copier
-Modifier
-git clone https://github.com/basbunar/analyse_DPE_Abbeville.git
-cd analyse_DPE_Abbeville
+   
+        bash
+        Copier
+        Modifier
+        git clone https://github.com/basbunar/analyse_DPE_Abbeville.git
+        cd analyse_DPE_Abbeville
 
-2) Installer les bibliothèques nécessaires:
-bash
-Copier
-Modifier
-pip install -r requirements.txt
+3) Installer les bibliothèques nécessaires:
 
-3) Ouvrir et exécuter les notebooks Jupyter:
-bash
-Copier
-Modifier
-jupyter notebook
+        bash
+        Copier
+        Modifier
+        pip install -r requirements.txt
+
+4) Ouvrir et exécuter les notebooks Jupyter:
+
+        bash
+        Copier
+        Modifier
+        jupyter notebook
 
         Améliorations Possibles
 
