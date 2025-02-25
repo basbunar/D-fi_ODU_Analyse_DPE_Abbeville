@@ -73,8 +73,6 @@ Résumé des Résultats
  Les déperditions thermiques et la qualité de l’isolation jouent un rôle clé.
  La surface habitable a un fort impact sur la consommation;
 
-Les analyses détaillées et interprétations sont disponibles dans les notebooks.
-Ceci est un projet de niveau confirmé, bien que je sois encore débutante, il permet la pratique des différentes étapes d'un projet d'analyse de données: préparation de données, analyse exploratoire, prédictions.
 
 Améliorations Possibles
 
@@ -83,6 +81,8 @@ Ce projet peut être amélioré en :
 Ajoutant d’autres modèles de prédiction pour mieux expliquer les écarts DPE/consommation.
 Testant des méthodes de sélection de variables pour optimiser les prédictions.
 Enrichissant la base de données avec d’autres sources d’information (météo, équipements, etc.).
+Les analyses détaillées et interprétations sont disponibles dans les notebooks.
+Ceci est un projet de niveau confirmé, il permet la pratique des différentes étapes d'un projet d'analyse de données: préparation de données, analyse exploratoire, prédictions.
 
 
 Auteur : Basak Basbunar
