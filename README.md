@@ -13,8 +13,8 @@ Technologies utilisées :
     Python, Pandas, Matplotlib, Seaborn, Scikit-learn
 
 
-Objectif du Projet
-L’objectif de ce projet est d’évaluer l’impact de la classe de Diagnostic de Performance Énergétique (DPE) sur la consommation réelle d’électricité des logements à Abbeville.
+Objectif du Projet:
+Evaluation de l’impact de la classe de Diagnostic de Performance Énergétique (DPE) sur la consommation réelle d’électricité des logements à Abbeville.
 
 Il s’agit de :
 Comparer les estimations du DPE avec les consommations réelles issues des données Enedis.
